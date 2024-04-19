@@ -1,1 +1,62 @@
-WwogICAgewogICAgICAgICJwcm9maWxlIjogIuaXoOeVjCIsCiAgICAgICAgImNvbmZpZyI6IHsKICAgICAgICAgICAgIlNPQ0tTIjogIjk2NjYiLAogICAgICAgICAgICAiSFRUUCI6ICI5NjY2IiwKICAgICAgICAgICAgImNvbmZpZ0ZpbGUiOiAibGV2ZWxfMDIiLAogICAgICAgICAgICAiYWdlbnQiOiAid2oiCiAgICAgICAgfQogICAgfSwKICAgIHsKICAgICAgICAicHJvZmlsZSI6ICLml6AiLAogICAgICAgICJjb25maWciOiB7CiAgICAgICAgICAgICJTT0NLUyI6IDkxNTAsCiAgICAgICAgICAgICJIVFRQIjogOTA4MCwKICAgICAgICAgICAgImNvbmZpZ0ZpbGUiOiAibGV2ZWxfMDEiLAogICAgICAgICAgICAiYWdlbnQiOiAiTm9uZSIKICAgICAgICB9CiAgICB9LAogICAgewogICAgICAgICJwcm9maWxlIjogIlNTSCIsCiAgICAgICAgImNvbmZpZyI6IHsKICAgICAgICAgICAgIlNPQ0tTIjogMTA4MCwKICAgICAgICAgICAgIkhUVFAiOiAxMDgwLAogICAgICAgICAgICAiY29uZmlnRmlsZSI6ICJsZXZlbF8wMiIsCiAgICAgICAgICAgICJhZ2VudCI6ICJTU0giLAogICAgICAgICAgICAiU1NIIjogewogICAgICAgICAgICAgICAgImlwIjogIm5sZDEuc3NoMC5uZXQiLAogICAgICAgICAgICAgICAgInBvcnQiOiAyMiwKICAgICAgICAgICAgICAgICJ1c2VybmFtZSI6ICJzc2hvY2Vhbi1qZnJ2bSIsCiAgICAgICAgICAgICAgICAicGFzc3dvcmQiOiAieGJzZGZtaXl1dCIsCiAgICAgICAgICAgICAgICAia2V5IjogIiIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICAgInByb2ZpbGUiOiAidjJyYXkiLAogICAgICAgICJjb25maWciOiB7CiAgICAgICAgICAgICJTT0NLUyI6IDEwODAsCiAgICAgICAgICAgICJIVFRQIjogMTA4MCwKICAgICAgICAgICAgImNvbmZpZ0ZpbGUiOiAibGV2ZWxfMDIiLAogICAgICAgICAgICAiYWdlbnQiOiAidjIiLAogICAgICAgICAgICAidjIiOiB7CiAgICAgICAgICAgICAgICAidHlwZSI6ICJ2bGVzcyIsCiAgICAgICAgICAgICAgICAic2VydmVyIjogImNmLmZkc2VvLmJpei5pZCIsCiAgICAgICAgICAgICAgICAicG9ydCI6IDQ0MywKICAgICAgICAgICAgICAgICJ1dWlkIjogImE0NWI2NGVlLTM0NWMtNGViZS1hMGJhLTE5MWI3NTAwMDhhMCIsCiAgICAgICAgICAgICAgICAidGxzIjogewogICAgICAgICAgICAgICAgICAgICJlbmFibGVkIjogdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAic2VydmVyX25hbWUiOiAiIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICJ0cmFuc3BvcnQiOiB7CiAgICAgICAgICAgICAgICAgICAgInR5cGUiOiAid3MiLAogICAgICAgICAgICAgICAgICAgICJwYXRoIjogIi8/ZWQ9MjA0OCIsCiAgICAgICAgICAgICAgICAgICAgImhlYWRlcnMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICJIb3N0IjogImNmLmZkc2VvLmJpei5pZCIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cl0=
+[
+    {
+        "profile": "无界",
+        "config": {
+            "SOCKS": "9666",
+            "HTTP": "9666",
+            "configFile": "level_02",
+            "agent": "wj"
+        }
+    },
+    {
+        "profile": "无",
+        "config": {
+            "SOCKS": 9150,
+            "HTTP": 9080,
+            "configFile": "level_01",
+            "agent": "None"
+        }
+    },
+    {
+        "profile": "SSH",
+        "config": {
+            "SOCKS": 1080,
+            "HTTP": 1080,
+            "configFile": "level_02",
+            "agent": "SSH",
+            "SSH": {
+                "ip": "nld1.ssh0.net",
+                "port": 22,
+                "username": "sshocean-jfrvm",
+                "password": "xbsdfmiyut",
+                "key": ""
+            }
+        }
+    },
+    {
+        "profile": "v2ray",
+        "config": {
+            "SOCKS": 1080,
+            "HTTP": 1080,
+            "configFile": "level_02",
+            "agent": "v2",
+            "v2": {
+                "type": "vless",
+                "server": "cf.fdseo.biz.id",
+                "port": 443,
+                "uuid": "a45b64ee-345c-4ebe-a0ba-191b750008a0",
+                "tls": {
+                    "enabled": true,
+                    "server_name": ""
+                },
+                "transport": {
+                    "type": "ws",
+                    "path": "/?ed=2048",
+                    "headers": {
+                        "Host": "cf.fdseo.biz.id"
+                    }
+                }
+            }
+        }
+    }
+]
